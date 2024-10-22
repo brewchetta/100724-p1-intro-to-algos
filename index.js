@@ -31,6 +31,31 @@
 //  * @param {number} target
 //  * @return {number[]}
 //  */
+
+// first attempt:
+// function twoSum(numsArray, targetNumber) {
+
+//     let result
+
+//     numsArray.forEach((num, i) => {
+
+//         const myMatch = targetNumber - num
+//         const foundNum = numsArray.find(secondNumber => {
+//             console.log("doing a thing")
+//             operations++
+//             return secondNumber === myMatch
+//         })
+        
+//         if (foundNum) {
+//             result = [i, numsArray.indexOf(foundNum)]
+//         }
+
+//     })
+
+//     return result
+
+// };
+
 let operations = 0
 
 const arr = [4,8,16,32,64,3,7,22,2, 1000, 1]
